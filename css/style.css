@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box; }
+
+body {
+  width: 100%; }
+
+body .navbar {
+  padding-top: 2rem;
+  border: 0px; }
+
+.navTabs {
+  display: inline-block;
+  float: right;
+  padding: 10px; }
+
+body .area1 {
+  height: 1200px;
+  width: 100%;
+  background-image: url("http://i.imgur.com/SpcdVx2.jpg"); }
+
+/*# sourceMappingURL=style.css.map */
