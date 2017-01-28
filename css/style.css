@@ -5,7 +5,6 @@ body {
   width: 100%; }
 
 body .navbar {
-  padding-top: 2rem;
   border: 0px; }
 
 .navTabs {
@@ -13,6 +12,15 @@ body .navbar {
   display: inline-block;
   float: right;
   padding: 10px; }
+
+html body div nav div div p {
+  font-size: 30px;
+  font-family: serif; }
+
+span {
+  font-size: 30px;
+  font-style: oblique;
+  font-family: serif; }
 
 body .area1 {
   height: 1200px;
