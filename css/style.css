@@ -34,8 +34,14 @@ body .area1 {
 
 body .area2 {
   width: 1170px;
-  height: 1100px;
-  background: #EBEBEB; }
+  background: #EBEBEB;
+  padding-bottom: 100px; }
+
+body .area3 {
+  width: 1170px;
+  background: #fff;
+  padding-top: 50px;
+  padding-bottom: 100px; }
 
 .font {
   font-family: Georgia serif;
@@ -68,6 +74,28 @@ body .area2 {
   font-size: 72px;
   font-weight: bold; }
 
+.area3titleLane1 {
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-style: italic; }
+
+.area3titleLane2 {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 20px; }
+
+.footerLane {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 20px;
+  color: #fff; }
+
+.footerTitle {
+  font-size: 24px;
+  font-style: italic;
+  color: #fff;
+  padding-bottom: 15px; }
+
 .button {
   width: 219px;
   height: 44px;
@@ -85,11 +113,25 @@ body .area2 {
   background: url("http://i.imgur.com/ocQzcmS.png") no-repeat transparent; }
 
 .products {
-  padding: 60px 5% 0 5%;
-  clear: both; }
+  padding: 60px 5% 0 5%; }
 
 .titleProduct {
   padding-top: 30px;
   font-size: 22px; }
+
+html body div div div div p.productLorem {
+  font-size: 12px;
+  font-style: italic; }
+
+.buttonArea3 {
+  background-color: #4f4d6a;
+  color: #fff;
+  width: 100px;
+  height: 22px;
+  border: 0px;
+  border-radius: 2px; }
+
+html body div .footer {
+  background-color: #505050; }
 
 /*# sourceMappingURL=style.css.map */
