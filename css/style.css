@@ -5,15 +5,20 @@ body {
   width: 100%; }
 
 body .navbar {
-  border: 0px; }
+  border: 0px;
+  position: absolute;
+  background-color: transparent;
+  padding-top: 25px; }
 
 .navTabs {
   font-size: 10px;
   display: inline-block;
-  float: right;
-  padding: 10px; }
+  float: left;
+  padding: 20px 10px 0 10px;
+  text-decoration: none; }
 
 html body div nav div div p {
+  padding-left: 20%;
   font-size: 30px;
   font-family: serif; }
 
