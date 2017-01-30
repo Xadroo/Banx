@@ -55,4 +55,10 @@ body .area1 {
   font-size: 18px;
   font-weight: bold; }
 
+.button {
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 30%; }
+
 /*# sourceMappingURL=style.css.map */
