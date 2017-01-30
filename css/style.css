@@ -28,10 +28,14 @@ span {
   font-style: oblique; }
 
 body .area1 {
-  height: 1200px;
+  height: 1135px;
   width: 1170px;
-  background-image: url("http://i.imgur.com/SpcdVx2.jpg");
-  background-repeat: no-repeat; }
+  background: url("http://i.imgur.com/SpcdVx2.jpg") no-repeat; }
+
+body .area2 {
+  width: 1170px;
+  height: 1100px;
+  background: #EBEBEB; }
 
 .font {
   font-family: Georgia serif;
@@ -40,19 +44,28 @@ body .area1 {
 .title {
   display: flex;
   justify-content: center;
-  text-align: center;
-  padding-top: 150px; }
+  text-align: center; }
 
-.titleLane1 {
+.area1titleLane1 {
+  padding-top: 150px;
   font-size: 24px;
   font-style: oblique; }
 
-.titleLane2 {
+.area1titleLane2 {
   font-size: 125px;
   font-weight: bold; }
 
-.titleLane3 {
+.area1titleLane3 {
   font-size: 18px;
+  font-weight: bold; }
+
+.area2titleLane1 {
+  padding-top: 100px;
+  font-size: 18px;
+  font-style: italic; }
+
+.area2titleLane2 {
+  font-size: 72px;
   font-weight: bold; }
 
 .button {
@@ -70,5 +83,13 @@ body .area1 {
 
 .buttonRight {
   background: url("http://i.imgur.com/ocQzcmS.png") no-repeat transparent; }
+
+.products {
+  padding: 60px 5% 0 5%;
+  clear: both; }
+
+.titleProduct {
+  padding-top: 30px;
+  font-size: 22px; }
 
 /*# sourceMappingURL=style.css.map */
