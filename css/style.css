@@ -56,9 +56,19 @@ body .area1 {
   font-weight: bold; }
 
 .button {
-  width: 200px;
-  height: 40px;
-  margin: 10px;
-  border-radius: 30%; }
+  width: 219px;
+  height: 44px;
+  margin: 30px;
+  border: 0px;
+  font-family: Georgia serif;
+  font-size: 18px;
+  font-style: italic;
+  color: white; }
+
+.buttonLeft {
+  background: url("http://i.imgur.com/FL3jRjr.png") no-repeat transparent; }
+
+.buttonRight {
+  background: url("http://i.imgur.com/ocQzcmS.png") no-repeat transparent; }
 
 /*# sourceMappingURL=style.css.map */
