@@ -16,8 +16,10 @@ html body div nav div div ul div a {
 .navTabs {
   font-size: 12px;
   display: inline-block;
-  padding: 10px 5px 0 5px;
-  text-decoration: none; }
+  padding: 10px 10px 0 0;
+  text-decoration: none;
+  position: relative;
+  z-index: 1; }
 
 .navLink:hover {
   color: #4f4d6a;
@@ -27,27 +29,22 @@ html body div nav div div p {
   font-size: 30px; }
 
 span {
+  padding-left: 164px;
   font-size: 30px;
   font-style: oblique; }
 
-body .navArea {
-  width: 930px; }
-
 body .pageArea {
-  width: 930px; }
+  width: 1170px; }
 
 body .area1 {
   height: 1135px;
-  width: 930px;
   background: url("http://i.imgur.com/SpcdVx2.jpg") no-repeat; }
 
 body .area2 {
-  width: 930px;
   background: #EBEBEB;
   padding-bottom: 100px; }
 
 body .area3 {
-  width: 930px;
   background: #fff;
   padding-top: 50px;
   padding-bottom: 100px; }
@@ -56,10 +53,21 @@ body .area3 {
   font-family: Georgia serif;
   color: #4f4d6a; }
 
+.areaHolder {
+  width: 1006px;
+  margin: auto; }
+
 .title {
   display: flex;
   justify-content: center;
   text-align: center; }
+
+.banxLinkBar {
+  float: right; }
+
+.banxTitle {
+  float: left;
+  padding-left: 15%; }
 
 .area1titleLane1 {
   padding-top: 150px;
@@ -122,15 +130,26 @@ body .area3 {
   background: url("http://i.imgur.com/ocQzcmS.png") no-repeat transparent; }
 
 .products {
-  padding: 60px 5% 0 5%; }
+  width: 1006px;
+  padding-top: 60px;
+  text-align: left; }
 
 .titleProduct {
   padding-top: 30px;
-  font-size: 22px; }
+  font-size: 22px;
+  font-style: italic; }
 
 html body div div div div p.productLorem {
   font-size: 12px;
   font-style: italic; }
+
+.productImg {
+  padding: 0 5px 0 5px; }
+
+.productBox {
+  width: 25%;
+  position: absolute;
+  z-index: 1; }
 
 .buttonArea3 {
   background-color: #4f4d6a;
@@ -141,7 +160,7 @@ html body div div div div p.productLorem {
   border-radius: 2px; }
 
 html body div .footer {
-  width: 930px;
+  width: 1170px;
   background-color: #505050; }
 
 /*# sourceMappingURL=style.css.map */
