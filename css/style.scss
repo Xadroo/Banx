@@ -1,168 +1,134 @@
 $color: #4f4d6a;
 html{
 	box-sizing: border-box;
+	font-size: 62.5%;
+}
+html,
+body {
+  width: 100%;
+  min-width: 500px;
+  height: 100%;
 }
 body{
 	width: 100%;
-}
-body .navbar{
-	border: 0px;
-	position: absolute;
-	background-color: transparent;
-	padding-top: 25px;
-}
-html body div nav div div ul div a{
-	text-decoration: none;
-}
-
-.navTabs{
-	font-size: 12px;
-	display: inline-block;
-	padding: 10px 10px 0 0;
-	text-decoration: none;
-	position: relative;
-	z-index: 1;
-}
-.navLink:hover{
-	color: $color;
-	text-decoration: none;
-}
-html body div nav div div p {
-	font-size: 30px;
-	}
-	span{
-		padding-left: 164px;
-	font-size: 30px;
-	font-style: oblique;
-}
-body .pageArea{
-	width: 1170px;
-}
-body .area1{
-	height: 1135px;
-	background: url("http://i.imgur.com/SpcdVx2.jpg") no-repeat;
-}
-body .area2{
-	background: #EBEBEB;
-	padding-bottom: 100px;
-}
-body .area3{
-	background: #fff;
-	padding-top: 50px;
-	padding-bottom: 100px;
-}
-.font{
+	height: 100%;
 	font-family: Georgia serif;
 	color: $color;
+	.navbar{
+		border: 0px;
+		background-color: transparent;
+		color: #fff;
+	}
+	.butt{
+		margin: 25px 10px 25px 10px;
+		width: 220px;
+		color: #fff;
+		border-radius: 25px;
+	}
+	.header{
+	    display: table;
+	    position: relative;
+	    width: 100%;
+	    height: 100%;
+		background: url(../images/bg.jpg) no-repeat center center scroll;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+		h1{
+			font-size: 4.5em;
+		}
+		h4{
+			font-weight: bold;
+		}
+	}
 }
-.areaHolder{
-	width: 1006px;
-	margin: auto;
+.text-vertical-center {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle; 
 }
-.title{
-	display: flex;	
-	justify-content: center;
-	text-align: center;
+.row{
+	margin: 0;
 }
-.banxLinkBar{
-	// margin-left: 150px;
-	float: right;
+.transBlock{
+	background: rgba(0,0,0,.6);
+	border-radius: 5px;
+	min-height: 50px;
+	p{
+		font-size: 30px;
+		span{
+			font-style: oblique;
+		}
+	}
+	.dropdown{
+		background-color: #fff;
+	    border-radius: 10px;
+	    margin-top: 5px;
+	    margin-right: 5px;
+	}
+	.dropdown:hover,
+	.dropdown:focus,
+	.dropdown:active{
+		border-radius: 10px;
+	}
 }
-.banxTitle{
-	float: left;
-	padding-left: 15%;
+@media screen and (max-width: 600px) {
+	.dropdown{width: 90px; font-size: 10px;}
 }
-.area1titleLane1{
-	padding-top: 150px;
-	font-size: 24px;
-	font-style: oblique;
+.btn-dark{
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb( 79, 77, 106 );
+	background-image: -moz-linear-gradient( 90deg, rgb(79,77,106) 0%, rgb(110,108,138) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(79,77,106) 0%, rgb(110,108,138) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(79,77,106) 0%, rgb(110,108,138) 100%);
+	box-shadow: 0.5px 0.866px 0px 0px rgb( 0, 0, 0 );
 }
-.area1titleLane2{
-	font-size: 125px;
-	font-weight: bold;
+.btn-light{
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb( 146, 124, 144 );
+	background-image: -moz-linear-gradient( 90deg, rgb(156,131,148) 0%, rgb(208,194,202) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(156,131,148) 0%, rgb(208,194,202) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(156,131,148) 0%, rgb(208,194,202) 100%);
+	box-shadow: 0.5px 0.866px 0px 0px rgb( 0, 0, 0 );
 }
-.area1titleLane3{
-	font-size: 18px;
-	font-weight: bold;
+.work{
+	min-height: 700px;
+    position: relative;
+    width: 100%;
+    background-color: #ebebeb;
+    h1{
+		font-size: 4.5em;
+	}
 }
-.area2titleLane1{
-	padding-top: 100px;
-	font-size: 18px;
-	font-style: italic;
-}
-.area2titleLane2{
-	font-size: 72px;
-	font-weight: bold;
-}
-.area3titleLane1{
-	padding-bottom: 20px;
-	font-size: 24px;
-	font-style: italic;
-}
-.area3titleLane2{
-	font-size: 12px;
-	font-style: italic;
-	line-height: 20px;
-}
-.footerLane{
-	font-size: 12px;
-	font-style: italic;
-	line-height: 20px;
-	color: #fff;
-}
-.footerTitle{
-	font-size: 24px;
-	font-style: italic;
-	color: #fff;
-	padding-bottom: 15px;
+.us{
+	min-height: 200px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    p,h3{
+    	text-align: left;
+    }
+    .container{
+		div{
+			margin: 10px auto;
+		}
+    }
 }
 .button{
-	width: 219px;
-	height: 44px;
-	margin: 30px;
-	border: 0px;
-	font-family: Georgia serif;
-	font-size: 18px;
-	font-style: italic;
-	color: white; 
-}
-.buttonLeft{
-	background: url("http://i.imgur.com/FL3jRjr.png") no-repeat transparent;
-}
-.buttonRight{
-	background: url("http://i.imgur.com/ocQzcmS.png") no-repeat transparent;
-}
-.products{
-	width: 1006px;
-	padding-top: 60px;
-	text-align: left;
-}
-.titleProduct{
-	padding-top: 30px;
-	font-size: 22px;
-	font-style: italic;
-}
-html body div div div div p.productLorem{
-	font-size: 12px;
-	font-style: italic;
-}
-.productImg{
-	padding: 0 5px 0 5px;
-}
-.productBox{
-	width: 25%;
-	position: absolute;
-	z-index: 1;
-}
-.buttonArea3{
 	background-color: $color;
 	color: #fff;
 	width: 100px;
 	height: 22px;
 	border: 0px;
 	border-radius: 2px;
+	align: center;
+	margin: 10px auto;
 }
-html body div .footer{
-	width: 1170px;
+footer{
 	background-color: #505050;
+	color: #fff;
+	min-height: 150px;
 }
